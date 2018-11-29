@@ -1,0 +1,108 @@
+*{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: arial;
+ 	color: black;
+}
+
+a{
+ 	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.wapper{
+	position: absolute;
+	margin: 20 auto 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 1000px;
+	height: 700px;
+	border: 4px solid black;
+	border-radius: 8px;
+	background: lightskyblue;
+}
+
+.food{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: green;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+}
+
+.body{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: grey;
+}
+
+.snake .head{
+	top: 0;
+	left: 0;
+	background: red;
+	z-index: 1;
+}
+
+.first-body{
+	top: 0;
+	left: 0;
+}
+
+.snake .tail{
+	top: 0;
+	left: 0;
+	background: pink;
+}
+
+.note{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 20px;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+	background: white;
+	display: none;
+	z-index: 2;
+}
+
+.start{
+	width: 900px;
+	height: 100px;
+	color: white;
+	background: green;
+}
+
+.pause{
+	background: yellow;
+}
+
+.game-over{
+	background: red;
+}
+
+.success{
+	color: red;
+}
+
+span{
+	color: red;
+}
